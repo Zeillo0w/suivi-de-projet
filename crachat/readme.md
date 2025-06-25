@@ -1,0 +1,1 @@
+crachat.ino exécute PowerShell en tant qu'administrateur et arrête tous les processus, ce qui provoque un écran bleu de la mort. L'utilisateur doit donc disposer des privilèges d'administrateur pour réussir le plantage, sinon l'application restera bloquée sur la page de saisie du mot de passe. L'écran bleu de la mort prend environ 10 à 15 secondes.

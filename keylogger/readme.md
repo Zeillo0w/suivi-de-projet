@@ -1,0 +1,3 @@
+keyLogger.ino :
+Un Keylogger basé sur powershell. Fonctionne en déposant une charge utile dans un répertoire temporaire et en l'exécutant en arrière-plan. Il enregistre les frappes de clavier pendant une durée déterminée. Une fois le temps écoulé, il envoie les frappes enregistrées au site webhook et supprime toutes les données du keylogger du répertoire temporaire.
+Veuillez noter qu'il est désormais détectable par la plupart des programmes antivirus. Le seul moyen de le rendre indétectable est d'obscurcir la charge utile.
